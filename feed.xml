@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>MO personal Newsletter to RSS Feed</title>
-    <description>Newsletter to RSS from MO</link>
+    <title>Human in the Loop</title>
+    <description>AI agents, GenAI innovation, curated tools and career advice for an AI-first world</description>
+    <link>https://humanintheloop.beehiiv.com</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 09:01:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 09:11:17 GMT</lastBuildDate>
     
+    <item>
+      <title>♾️ Welcome to Human in the Loop</title>
+      <description><![CDATA[
+        <p>Thanks for joining Human in the Loop. I'm Andreas — and I'm genuinely excited you're here.</p>
+        
+        <p><strong>Let's get straight to it. I'm here to do 3 things for you:</strong></p>
+        <ol>
+          <li>Make sense of AI agents and current GenAI innovation</li>
+          <li>Drop curated tools and real-world use cases</li>
+          <li>Tactical career advice so you can grow fast in an AI-first world</li>
+        </ol>
+        
+        <h2>Why I started this</h2>
+        
+        <p>Everyone has an opinion on AI. Some say it's overhyped. Others call it the fourth industrial revolution. I'm not here for the noise — I'm here for the response.</p>
+        
+        <p>Because whether you're an optimist or a skeptic, the tech is already here — reshaping how we live, work, and make decisions.</p>
+        
+        <p>In this moment, you can either be the <strong>driver</strong> — or the <strong>passenger</strong>. Drivers set the direction. Passengers follow. And right now, while the tools are still early and the rules are still forming, you have a rare chance to lead. Those who choose to engage now — who experiment, iterate, and learn — will shape what comes next.</p>
+        
+        <p>That's why I created Human in the Loop — to make sure you're the driver.</p>
+        
+        <h3>IMPORTANT — Next steps</h3>
+        <ol>
+          <li>Reply to this email with a quick "Yes".</li>
+          <li>Move this e-mail to your Primary inbox</li>
+        </ol>
+        
+        <p><strong>Welcome to the loop and excited to have you here.</strong></p>
+        
+        <p>See you soon!</p>
+        
+        <p>— Andreas</p>
+        
+        <p><strong>P.S. I read every reply — if there's something you want me to cover or share your thoughts on, just let me know!</strong></p>
+      ]]></description>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 GMT</pubDate>
+      <author>Andreas (Human in the Loop)</author>
+      <guid isPermaLink="false">humanintheloop-welcome-2025-01-23</guid>
+    </item>
     <item>
       <title>♾️ Welcome to Human in the Loop</title>
       <description><![CDATA[
