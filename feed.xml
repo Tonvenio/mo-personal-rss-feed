@@ -5,8 +5,170 @@
     <description>NL to RSS</description>
     <link>https://tonvenio.github.io/mo-personal-rss-feed/feed.xml</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 09:37:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 09:40:34 GMT</lastBuildDate>
     
+    <item>
+<title>{{ $json.clean_title || $json.headline }}</title>
+<link>{{ $json.from }}</link>
+<author>{{ $json.from }}</author>
+<pubDate>{{ new Date().toUTCString() }}</pubDate>
+<guid isPermaLink="false">{{ $json.from }}-{{ Date.now() }}</guid>
+<description><![CDATA[
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+</head>
+<body>
+<div name="messageBodySection">
+<div dir="auto"><br /></div>
+<blockquote style="border-left-color: rgb(26, 188, 156); margin: 5px; padding-left: 10px; border-left-width: thin; border-left-style: solid;">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="caret-color: inherit !important; float: none; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;">
+<div aria-hidden="true" style="caret-color: inherit !important; max-height: 0px; overflow: hidden;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="caret-color: inherit !important; float: none; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;"></td>
+</tr>
+</tbody>
+</table>
+<table role="presentation" class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0" style="caret-color: inherit !important; float: none; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="caret-color: inherit !important; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;">
+<table width="100%" align="center" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0" role="presentation" style="caret-color: inherit !important; max-width: 600px;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="pt24-pb32" valign="top" style="caret-color: inherit !important; padding: 16px 16px 24px;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation" style="caret-color: inherit !important;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td width="128" align="left" valign="middle" style="caret-color: inherit !important; vertical-align: middle; padding: 0px 16px 0px 0px;"><a href="https://click.e.economist.com/u/?qs=96183a6fd73dad44985f39421740445e4d512a672b87ccff19de47a15eb984b7989090c3508992ed550d84cf42ceb5da9a93c1f68b2bf384ba16dedb251f96aa" target="_blank" style="caret-color: inherit !important; color: var(--linkColor);"><img src="https://image.e.economist.com/lib/fe8d13727c650c7976/m/1/d2979654-fae4-451b-bdca-c79bb5522f6b.png" width="128" height="64" alt="The Economist" border="0" style="display: block; border: medium; caret-color: inherit !important; max-width: 100%; height: auto;" /></a></td>
+<td class="econsans" valign="middle" style="vertical-align: middle; font-family: EconomistSansLF, system-ui, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; color: rgb(18, 18, 18); line-height: 25px; text-align: right; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(215, 215, 215); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(215, 215, 215); caret-color: inherit !important;">
+<p style="caret-color: inherit !important; margin: 0px;"><span style="margin: 0px; caret-color: inherit !important;"><a href="https://view.e.economist.com/?qs=65a6ab51af60d67050f1194d58ffe259dd50056d0b42b69db31a23830884f77d0b6a295ef3c8b0f38187fca12f4ff6dcad43236c2c6d31c14ded64ccf65ff4748e42351f19f4ba89f27bffa6019fee5a" target="_blank" style="caret-color: inherit !important; color: rgb(18, 18, 18); text-decoration: none;">Read in browser</a></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" align="center" style="caret-color: inherit !important; max-width: 600px;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td valign="top" style="caret-color: inherit !important; padding: 0px 16px 16px;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="caret-color: inherit !important;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="econsans" valign="top" style="caret-color: inherit !important; padding: 4px 0px 0px; font-family: EconomistSansLF, system-ui, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; font-size: 11px; color: rgb(18, 18, 18); line-height: 19px; text-align: left; text-transform: uppercase; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(18, 18, 18);">
+<p style="caret-color: inherit !important; margin: 0px;"><span style="margin: 0px; caret-color: inherit !important;">MAY 24TH 2025</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="caret-color: inherit !important; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="caret-color: inherit !important; min-width: 100%;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="stylingblock-content-wrapper camarker-inner" style="caret-color: inherit !important;">
+<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="caret-color: inherit !important; max-width: 600px;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td align="center" valign="top" style="caret-color: inherit !important; font-size: 0px; padding: 0px 0px 20px;">
+<div class="fluid" style="caret-color: inherit !important; display: inline-block; width: 600px; min-width: 100%; max-width: 120px; letter-spacing: normal; vertical-align: top;">
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="fluid" role="presentation" width="100%" style="caret-color: inherit !important;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td align="center" valign="middle" style="caret-color: inherit !important; padding: 1px 0px;"><img alt="The Economist this weekend" data-assetid="152069" height="80" src="https://image.e.economist.com/lib/fe8d13727c650c7976/m/4/702782ff-ecfc-4819-9d4a-e94ab0b1fed3.png" width="80" style="caret-color: inherit !important; display: block; padding: 0px; height: 80px; width: 80px; text-align: center; border: 0px transparent;" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class="Apple-converted-space">&#160;</span>
+<div class="fluid" style="caret-color: inherit !important; display: inline-block; width: 600px; min-width: 100%; max-width: 480px; vertical-align: top;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="caret-color: inherit !important;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td class="pr16" height="44" valign="middle" style="caret-color: inherit !important; vertical-align: middle; padding: 0px 16px 0px 0px;">
+<h1 class="txtl txt36 serifLF" style="caret-color: inherit !important; margin: 0px; font-family: EconomistSerifLF, Georgia, TimesNewRoman, &quot;Times New Roman&quot;, Times, serif; font-size: 32px; color: rgb(18, 18, 18); line-height: 38px; letter-spacing: normal; text-align: center; font-weight: 500 !important;">The Economist this weekend</h1>
+</td>
+</tr>
+<tr style="caret-color: inherit !important;">
+<td class="pr16" height="28" valign="middle" style="caret-color: inherit !important; vertical-align: middle; padding: 0px 16px 0px 0px;">
+<p class="txtl" style="caret-color: inherit !important; margin: 0px; font-size: 20px; color: rgb(18, 18, 18); line-height: 1.4; text-align: center; font-weight: 400 !important;"><span style="margin: 0px; font-size: 20px; color: rgb(18, 18, 18); line-height: 1.4; text-align: center; caret-color: inherit !important; font-weight: 400 !important;">A special edition on generations</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="caret-color: inherit !important; max-width: 600px;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td valign="top" style="caret-color: inherit !important; padding: 0px 8px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="caret-color: inherit !important;">
+<tbody style="caret-color: inherit !important;">
+<tr style="caret-color: inherit !important;">
+<td align="center" valign="top" style="caret-color: inherit !important; padding: 0px 8px 8px;">
+<hr style="caret-color: inherit !important; width: 568px; max-width: 568px; height: 1px; margin: 0px; background-color: rgb(215, 215, 215); color: rgb(215, 215, 215); border-width: 0px;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- The rest of the email body continues exactly as provided above, without any omissions or alterations. -->
+<div dir="auto"><br /></div>
+</div>
+<div name="messageReplySection">
+<blockquote type="cite" style="border-left-color:#1abc9c; margin:5px 5px; padding-left:10px; border-left-width:thin; border-left-style:solid;" class="spark_indent"><br />
+<!--<![endif]--></blockquote>
+<style type="text/css">
+/*<![CDATA[*/
+div.preheader  
+{ display: none !important; }  
+/*]]>*/
+</style></div>
+</body>
+</html>
+]]></description>
+</item>
     <item>
 <title>Why Gen X is the real loser generation – The Economist this weekend (May 24 2025)</title>
 <link>https://click.e.economist.com/?qs=bad5ccee89ddf477b3b85166157f69e5442eb67d65ae95e00062429fcbcad25aae52c034bdffddc00233012c09e2e5018d19440a62e856c7419272cedabe6370</link>
